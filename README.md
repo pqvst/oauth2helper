@@ -14,7 +14,7 @@ const OAuth2Helper = rqeuire("./oauth2helper");
 const config = {
   client_id: "MY_CLIENT_ID",
   client_secret: "MY_CLIENT_SECRET",
-  redirect_url: "MY_REDIRECT_DIR"
+  redirect_url: "https://fun.com/callback"
 };
 
 // api endpoint
