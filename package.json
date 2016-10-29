@@ -1,0 +1,30 @@
+{
+  "name": "oauth2helper",
+  "version": "1.0.0",
+  "description": "A simple helper for oauth2 requests",
+  "main": "oauth2helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqvst/oauth2helper.git"
+  },
+  "keywords": [
+    "oauth2",
+    "helper",
+    "npm",
+    "node",
+    "oauth"
+  ],
+  "author": "https://github.com/pqvst",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pqvst/oauth2helper/issues"
+  },
+  "homepage": "https://github.com/pqvst/oauth2helper#readme",
+  "dependencies": {
+    "oauth": "^0.9.14",
+    "request": "^2.76.0"
+  }
+}
