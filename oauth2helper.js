@@ -34,7 +34,7 @@ OAuth2Helper.prototype.verify = function (query, done) {
   this._oauth2.getOAuthAccessToken(query.code, params, (err, at, rt, res) => {
     if (err) return done(err);
     res.refresh_token = rt;
-    res.created_at = moment().unix();
+    res.created_at = unix();
     done(null, res);
   });
 };
@@ -47,7 +47,7 @@ OAuth2Helper.prototype.expired = function (tokens) {
   // test for expiration
   const now = unix();
   const exp = created + expires;
-  return exp >= now;
+  return exp <= now;
 };
 
 
